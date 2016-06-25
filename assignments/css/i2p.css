@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(light.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Source Sans Pro Black'), local('SourceSansPro-Black'), url(black.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+b {
+    font-weight: 900;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    background: #eeeeee;
+    color: #000000;
+    line-height: 1.5em;
+    padding: 0;
+    margin: 0;
+}
+
+.page {
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-top: 5px solid #000000;
+}
+
+h1 {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+h2 {
+    margin: 1em 0 0.5em -20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #5599ff;
+}
+
+h3 {
+    margin: 1em 0 0.5em -1em;
+    font-weight: 900;
+}
+
+p {
+    margin: 0 0 1em 0;
+}
+
+.section {
+    padding: 0 0 0 20px;
+}
+
+.lined {
+    border-collapse: collapse;
+    border-top: 5px solid #888888;
+}
+
+.lined tr {
+    border-top: 1px solid #888888;
+    border-bottom: 1px solid #888888;
+}
+
+.lined td {
+    padding: 5px;
+    vertical-align: top;
+}
+
+.stats table {
+    font-weight: 900;
+    color: #bb2211;
+}
+
+.header {
+    margin: 20px 0;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 4em;
+    line-height: 1em;
+}
+
+.header h2 {
+    margin: 0;
+    line-height: 1em;
+    color: #000000;
+}
+
+.header h3 {
+    margin: 0 0 1em 0;
+    padding: 0 0 1em 0;
+    line-height: 1em;
+    border-bottom: 1px solid #888888;
+}
+
+.subject {
+    margin: 20px auto 10px auto;
+    max-width: 800px;
+    padding: 20px 0 0 0;
+    font-weight: 900;
+}
